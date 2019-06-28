@@ -25,7 +25,7 @@ for number in 4..<8{
 }
 
 print(myNum)
-```
+This code will print 23
 
 ***
 ## Question 2
@@ -41,7 +41,7 @@ for i in 1..<100 {
 
 B)
 ```swift
-for j in 1...100 {
+for j in 1...100 {  <----- This is the correct answer
     print(j)
 }
 ```
@@ -71,7 +71,7 @@ for _ in 1...10{
         print("Nesting!")
     }
 }
-```
+Answer is 100 times
 
 ***
 ## Question 4
@@ -112,7 +112,7 @@ d)
 ```swift
 var t = 0
 
-while t == t{
+while t == t{                <-----this is the correct answer
     print("Ahoy-hoy!")
     t += 1
 }
